@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML, CSS Template 1" />
+    <meta name="keywords" content="HTML,CSS,Template" />
+    <meta name="author" content="Yazeed Salem" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/css/font-face.css" />
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <style>
+      /* .navbar {
+        border-bottom: 1px solid #eee;
+      } */
+
+      @media (min-width: 768px) {
+        .main-nav > li > a {
+          color: var(--blackColor);
+        }
+      }
+    </style>
+
+    <title>HTML Template</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div id="nav" class="navbar">
+      <div class="container clearfix">
+        <div class="navbar-header clearfix">
+          <div class="nav-logo">
+            <a href="#"
+              ><img src="assets/images/logo.webp" alt="Logo" draggable="false"
+            /></a>
+          </div>
+          <div class="nav-collapse">
+            <span></span>
+          </div>
+        </div>
+        <!-- ./navbar-header -->
+        <ul class="main-nav clearfix">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a id="about-link" href="index.html#about">About</a></li>
+          <li>
+            <a id="portfolio-link" href="index.html#portfolio">Portfolio</a>
+          </li>
+          <li><a id="services-link" href="index.html#services">Services</a></li>
+          <li><a id="prices-link" href="index.html#pricing">Prices</a></li>
+          <li><a id="team-link" href="index.html#team">Team</a></li>
+          <li class="dropdown">
+            <a id="blog-link" href="#blog">Blog</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">blog post</a></li>
+            </ul>
+          </li>
+          <li><a id="contact-link" href="index.html#contact">Contact</a></li>
+        </ul>
+        <!-- ./main-nav -->
+      </div>
+      <!-- ./container -->
+    </div>
+    <!-- #/nav -->
+
+    <!-- Header Section -->
+    <div class="header-wrapper pd-s-y bg-grey clearfix">
+      <div class="container">
+        <h2 class="header-title">Blog Page</h2>
+        <ul class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html#home">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Blog</a></li>
+          <li class="breadcrumb-item">Single Post</li>
+        </ul>
+      </div>
+      <!-- ./container -->
+    </div>
+    <!-- ./header-wrapper -->
+
+    <!-- Blog Section -->
+    <div id="blog" class="section pd-y">
+      <div class="container">
+        <div class="row">
+          <div id="main" class="main col-9">
+            <div class="blog">
+              <div class="blog-img">
+                <img src="assets/images/blog/blog1.webp" alt="Blog 1" />
+              </div>
+              <!-- ./blog-img -->
+              <div class="blog-content">
+                <ul class="blog-meta">
+                  <li><i class="fa fa-user"></i> John Doe</li>
+                  <li><i class="fa fa-clock-o"></i> 18 Oct</li>
+                  <li><i class="fa fa-comments"></i> 57</li>
+                </ul>
+                <h3 class="blog-title">
+                  Morbi mattis felis at nunc. Duis viverra
+                </h3>
+                <p class="blog-text">
+                  Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor
+                  eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+                  dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                  nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                  imperdiet. Etiam ultricies nisi vel augue. Curabitur
+                  ullamcorper ultricies nisi.
+                </p>
+              </div>
+              <!-- ./blog-content -->
+              <div class="blog-tags">
+                <h5>Tags:</h5>
+                <a href="#" class="tag-link"><i class="fa fa-tag"></i> Web</a>
+                <a href="#" class="tag-link"
+                  ><i class="fa fa-tag"></i> Design</a
+                >
+                <a href="#" class="tag-link"
+                  ><i class="fa fa-tag"></i> Marketing</a
+                >
+                <a href="#" class="tag-link"
+                  ><i class="fa fa-tag"></i> Development</a
+                >
+                <a href="#" class="tag-link"
+                  ><i class="fa fa-tag"></i> Branding</a
+                >
+                <a href="#" class="tag-link"
+                  ><i class="fa fa-tag"></i> Photography</a
+                >
+              </div>
+              <!-- ./blog-tags -->
+              <div class="blog-author">
+                <div class="media">
+                  <div class="media-left">
+                    <img
+                      src="assets/images/blog/author.jpg.webp"
+                      alt="Author Image"
+                    />
+                  </div>
+                  <div class="media-body">
+                    <div class="media-heading clearfix">
+                      <h3 class="media-title">Joe doe</h3>
+                      <div class="author-social">
+                        <a class="icon-link" href="#"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                        <a class="icon-link" href="#"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                        <a class="icon-link" href="#"
+                          ><i class="fa fa-google-plus"></i
+                        ></a>
+                        <a class="icon-link" href="#"
+                          ><i class="fa fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <p>
+                      Nec feugiat nisl pretium fusce id velit ut tortor pretium.
+                      Nisl purus in mollis nunc sed. Nunc non blandit massa enim
+                      nec.
+                    </p>
+                  </div>
+                </div>
+                <!-- ./media -->
+              </div>
+              <!-- ./blog-author -->
+              <div class="blog-comments">
+                <h3 class="title">(13) Comments</h3>
+                <div class="media">
+                  <div class="media-left">
+                    <img src="assets/images/blog/media1.webp" alt="media 1" />
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading clearfix">
+                      Joe doe<span class="time">2 min ago</span>
+                      <a class="reply" href="#"
+                        >reply <i class="fa fa-reply"></i
+                      ></a>
+                    </h4>
+                    <p>
+                      Nec feugiat nisl pretium fusce id velit ut tortor pretium.
+                      Nisl purus in mollis nunc sed. Nunc non blandit massa enim
+                      nec.
+                    </p>
+                  </div>
+                  <!-- ./media-body -->
+                </div>
+                <!-- ./media   -->
+                <div class="media">
+                  <div class="media-left">
+                    <img src="assets/images/blog/media2.webp" alt="media 1" />
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading clearfix">
+                      Joe doe<span class="time">2 min ago</span>
+                      <a class="reply" href="#"
+                        >reply <i class="fa fa-reply"></i
+                      ></a>
+                    </h4>
+                    <p>
+                      Nec feugiat nisl pretium fusce id velit ut tortor pretium.
+                      Nisl purus in mollis nunc sed. Nunc non blandit massa enim
+                      nec.
+                    </p>
+                  </div>
+                  <!-- ./media-body -->
+                  <div class="media author">
+                    <div class="media-left">
+                      <img src="assets/images/blog/media1.webp" alt="media 1" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading clearfix">
+                        Joe doe<span class="time">2 min ago</span>
+                        <a class="reply" href="#"
+                          >reply <i class="fa fa-reply"></i
+                        ></a>
+                      </h4>
+                      <p>
+                        Nec feugiat nisl pretium fusce id velit ut tortor
+                        pretium. Nisl purus in mollis nunc sed. Nunc non blandit
+                        massa enim nec.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- ./media   -->
+                  <div class="media">
+                    <div class="media-left">
+                      <img src="assets/images/blog/media2.webp" alt="media 1" />
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading clearfix">
+                        Joe doe<span class="time">2 min ago</span>
+                        <a class="reply" href="#"
+                          >reply <i class="fa fa-reply"></i
+                        ></a>
+                      </h4>
+                      <p>
+                        Nec feugiat nisl pretium fusce id velit ut tortor
+                        pretium. Nisl purus in mollis nunc sed. Nunc non blandit
+                        massa enim nec.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- ./media   -->
+                </div>
+                <!-- ./media   -->
+                <div class="media">
+                  <div class="media-left"></div>
+                  <div class="media-body">
+                    <h4 class="media-heading clearfix">
+                      Joe doe<span class="time">2 min ago</span>
+                      <a class="reply" href="#"
+                        >reply <i class="fa fa-reply"></i
+                      ></a>
+                    </h4>
+                    <p>
+                      Nec feugiat nisl pretium fusce id velit ut tortor pretium.
+                      Nisl purus in mollis nunc sed. Nunc non blandit massa enim
+                      nec.
+                    </p>
+                  </div>
+                </div>
+                <!-- ./media   -->
+              </div>
+              <!-- ./blog-comments -->
+              <div class="reply-form">
+                <h3 class="title">Leave a reply</h3>
+                <form action="#" method="get">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Name" />
+                  <label for="Email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                  />
+
+                  <label for="comment">Comment</label>
+                  <textarea
+                    name="comment"
+                    id="comment"
+                    cols="30"
+                    rows="10"
+                    placeholder="Add Your Comment"
+                  ></textarea>
+                  <button type="submit" class="main-btn">Submit</button>
+                </form>
+                <!-- /form -->
+              </div>
+              <!-- ./reply-form -->
+            </div>
+            <!-- ./blog -->
+          </div>
+          <!-- #/main ./col-9 -->
+          <div id="sidebar" class="col-3">
+            <div class="widget">
+              <div class="widget-search">
+                <label for="search">Search</label>
+                <input
+                  type="text"
+                  id="search"
+                  name="search"
+                  placeholder="search"
+                />
+                <a href="#"><i class="fa fa-search"></i></a>
+              </div>
+              <!-- ./widget-search -->
+            </div>
+            <!-- ./widget -->
+            <div class="widget">
+              <h3 class="title">Category</h3>
+              <div class="widget-category">
+                <a href="#">Web Design<span>(7)</span></a>
+                <a href="#">Marketing<span>(142)</span></a>
+                <a href="#">Web Development<span>(74)</span></a>
+                <a href="#">Branding<span>(60)</span></a>
+                <a href="#">Photography<span>(5)</span></a>
+              </div>
+            </div>
+            <!-- ./widget -->
+            <div class="widget">
+              <h3 class="title">Popular posts</h3>
+              <div class="widget-post">
+                <a href="#">
+                  <img src="assets/images/blog/post1.jpg.webp" alt="Post 1" />
+                  Blog title goes here
+                </a>
+                <ul class="blog-meta">
+                  <li>Oct 18, 2017</li>
+                </ul>
+              </div>
+              <!-- ./widget-post -->
+              <div class="widget-post">
+                <a href="#">
+                  <img src="assets/images/blog/post2.jpg.webp" alt="Post 2" />
+                  Blog title goes here
+                </a>
+                <ul class="blog-meta">
+                  <li>Oct 18, 2017</li>
+                </ul>
+              </div>
+              <!-- ./widget-post -->
+              <div class="widget-post">
+                <a href="#">
+                  <img src="assets/images/blog/post3.jpg.webp" alt="Post 3" />
+                  Blog title goes here
+                </a>
+                <ul class="blog-meta">
+                  <li>Oct 18, 2017</li>
+                </ul>
+              </div>
+              <!-- ./widget-post -->
+            </div>
+            <!-- ./widget -->
+            <div class="widget">
+              <h3 class="title">Tags</h3>
+              <div class="blog-tags">
+                <a href="#" class="tag-link">Web</a>
+                <a href="#" class="tag-link">Design</a>
+                <a href="#" class="tag-link">Graphic</a>
+                <a href="#" class="tag-link">Marketing</a>
+                <a href="#" class="tag-link">Development</a>
+                <a href="#" class="tag-link">Branding</a>
+                <a href="#" class="tag-link">Photography</a>
+              </div>
+            </div>
+            <!-- widget -->
+          </div>
+          <!-- #/sidebar ./col-3 -->
+        </div>
+        <!-- ./row -->
+      </div>
+      <!-- ./container -->
+    </div>
+    <!-- ./blog -->
+
+    <!-- Footer Section -->
+    <div id="footer" class="section pd-s-y bg-dark text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-logo">
+              <a href="#"
+                ><img src="assets/images/logo-alt.webp" alt="Logo"
+              /></a>
+            </div>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="icon-link"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#" class="icon-link"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#" class="icon-link"
+                  ><i class="fa fa-google-plus"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="icon-link"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="icon-link"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#" class="icon-link"><i class="fa fa-youtube"></i></a>
+              </li>
+            </ul>
+            <p class="footer-copyright">
+              copyright &copy; 2022. all rights reserved. designed by
+              <a href="#"> Yazeed Salem </a>
+            </p>
+          </div>
+          <!-- ./col-12 -->
+        </div>
+        <!-- ./row -->
+      </div>
+      <!-- ./container -->
+    </div>
+    <!-- #/footer -->
+
+    <script>
+      window.onscroll = function () {
+        let nav = document.getElementById("nav");
+        if (document.documentElement.scrollTop > 50) {
+          nav.classList.add("nav-fixed");
+        } else {
+          nav.classList.remove("nav-fixed");
+        }
+      };
+
+      document.querySelector(".nav-collapse").onclick = function () {
+        let nav = document.getElementById("nav");
+        nav.classList.toggle("open");
+      };
+    </script>
+  </body>
+</html>

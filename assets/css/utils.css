@@ -1,0 +1,73 @@
+/* -- 2.11 utils --*/
+
+.text-center {
+  text-align: center;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.mg-b-5 {
+  margin-bottom: 5px;
+}
+
+.mg-b-10 {
+  margin-bottom: 10px;
+}
+
+.mg-b-15 {
+  margin-bottom: 15px;
+}
+
+.mg-b-20 {
+  margin-bottom: 20px;
+}
+
+.mg-b-25 {
+  margin-bottom: 25px;
+}
+
+.mg-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mg-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mg-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mg-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mg-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hover-opacity {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.hover-opacity:hover {
+  opacity: 0.8;
+}
